@@ -1,0 +1,270 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C6A92D719C7CDCD0041A354 /* SpotSaverView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C6A92D619C7CDCD0041A354 /* SpotSaverView.h */; };
+		0C6A92D919C7CDCD0041A354 /* SpotSaverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C6A92D819C7CDCD0041A354 /* SpotSaverView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0C6A92D119C7CDCD0041A354 /* SpotSaver.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpotSaver.saver; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C6A92D519C7CDCD0041A354 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C6A92D619C7CDCD0041A354 /* SpotSaverView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpotSaverView.h; sourceTree = "<group>"; };
+		0C6A92D819C7CDCD0041A354 /* SpotSaverView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpotSaverView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C6A92CD19C7CDCD0041A354 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C6A92C719C7CDCD0041A354 = {
+			isa = PBXGroup;
+			children = (
+				0C6A92D319C7CDCD0041A354 /* SpotSaver */,
+				0C6A92D219C7CDCD0041A354 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0C6A92D219C7CDCD0041A354 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C6A92D119C7CDCD0041A354 /* SpotSaver.saver */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0C6A92D319C7CDCD0041A354 /* SpotSaver */ = {
+			isa = PBXGroup;
+			children = (
+				0C6A92D619C7CDCD0041A354 /* SpotSaverView.h */,
+				0C6A92D819C7CDCD0041A354 /* SpotSaverView.m */,
+				0C6A92D419C7CDCD0041A354 /* Supporting Files */,
+			);
+			path = SpotSaver;
+			sourceTree = "<group>";
+		};
+		0C6A92D419C7CDCD0041A354 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C6A92D519C7CDCD0041A354 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0C6A92CE19C7CDCD0041A354 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C6A92D719C7CDCD0041A354 /* SpotSaverView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0C6A92D019C7CDCD0041A354 /* SpotSaver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C6A92DC19C7CDCD0041A354 /* Build configuration list for PBXNativeTarget "SpotSaver" */;
+			buildPhases = (
+				0C6A92CC19C7CDCD0041A354 /* Sources */,
+				0C6A92CD19C7CDCD0041A354 /* Frameworks */,
+				0C6A92CE19C7CDCD0041A354 /* Headers */,
+				0C6A92CF19C7CDCD0041A354 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpotSaver;
+			productName = SpotSaver;
+			productReference = 0C6A92D119C7CDCD0041A354 /* SpotSaver.saver */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0C6A92C819C7CDCD0041A354 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = AndrewPage;
+				TargetAttributes = {
+					0C6A92D019C7CDCD0041A354 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+				};
+			};
+			buildConfigurationList = 0C6A92CB19C7CDCD0041A354 /* Build configuration list for PBXProject "SpotSaver" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0C6A92C719C7CDCD0041A354;
+			productRefGroup = 0C6A92D219C7CDCD0041A354 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0C6A92D019C7CDCD0041A354 /* SpotSaver */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0C6A92CF19C7CDCD0041A354 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C6A92CC19C7CDCD0041A354 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C6A92D919C7CDCD0041A354 /* SpotSaverView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0C6A92DA19C7CDCD0041A354 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0C6A92DB19C7CDCD0041A354 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0C6A92DD19C7CDCD0041A354 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SpotSaver/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Debug;
+		};
+		0C6A92DE19C7CDCD0041A354 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SpotSaver/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C6A92CB19C7CDCD0041A354 /* Build configuration list for PBXProject "SpotSaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C6A92DA19C7CDCD0041A354 /* Debug */,
+				0C6A92DB19C7CDCD0041A354 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C6A92DC19C7CDCD0041A354 /* Build configuration list for PBXNativeTarget "SpotSaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C6A92DD19C7CDCD0041A354 /* Debug */,
+				0C6A92DE19C7CDCD0041A354 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0C6A92C819C7CDCD0041A354 /* Project object */;
+}
